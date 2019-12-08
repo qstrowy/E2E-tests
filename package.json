@@ -1,0 +1,26 @@
+{
+  "name": "concise-e2e",
+  "version": "1.0.0",
+  "description": "Concise sample e2e tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/protractor/bin/protractor protractor.conf.js",
+    "pre-test": "webdriver-manager update"
+  },
+  "keywords": [
+    "e2e"
+  ],
+  "author": "Kamil Kustra",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jasmine": "^2.5.45",
+    "@types/jasminewd2": "^2.0.8",
+    "@types/node": "^12.12.14",
+    "jasmine-reporters": "^2.3.2",
+    "jasmine-spec-reporter": "^4.2.1",
+    "protractor": "^5.4.2",
+    "protractor-html-reporter-2": "^1.0.4",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.3"
+  }
+}
