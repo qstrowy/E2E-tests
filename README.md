@@ -4,7 +4,7 @@
 
 NOTE: Node.js (v12) is needed to run below commands.
 
-1. To install all needed dependencies run below command in main folder
+1. To install all needed dependencies run below command in main project folder:
 ```
 npm install
 ```
